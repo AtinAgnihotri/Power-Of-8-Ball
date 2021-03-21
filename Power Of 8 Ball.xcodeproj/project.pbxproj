@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49962207260770CD00F35AFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49962206260770CD00F35AFA /* AppDelegate.swift */; };
+		49962209260770CD00F35AFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49962208260770CD00F35AFA /* SceneDelegate.swift */; };
+		4996220B260770CD00F35AFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996220A260770CD00F35AFA /* ViewController.swift */; };
+		4996220E260770CD00F35AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4996220C260770CD00F35AFA /* Main.storyboard */; };
+		49962210260770D500F35AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4996220F260770D500F35AFA /* Assets.xcassets */; };
+		49962213260770D500F35AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49962211260770D500F35AFA /* LaunchScreen.storyboard */; };
+		4996221E260770D600F35AFA /* Power_Of_8_BallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996221D260770D600F35AFA /* Power_Of_8_BallTests.swift */; };
+		49962229260770D600F35AFA /* Power_Of_8_BallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49962228260770D600F35AFA /* Power_Of_8_BallUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4996221A260770D600F35AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 499621FB260770CD00F35AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49962202260770CD00F35AFA;
+			remoteInfo = "Power Of 8 Ball";
+		};
+		49962225260770D600F35AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 499621FB260770CD00F35AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49962202260770CD00F35AFA;
+			remoteInfo = "Power Of 8 Ball";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49962203260770CD00F35AFA /* Power Of 8 Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Power Of 8 Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49962206260770CD00F35AFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49962208260770CD00F35AFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4996220A260770CD00F35AFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4996220D260770CD00F35AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4996220F260770D500F35AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49962212260770D500F35AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49962214260770D500F35AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49962219260770D600F35AFA /* Power Of 8 BallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Power Of 8 BallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4996221D260770D600F35AFA /* Power_Of_8_BallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power_Of_8_BallTests.swift; sourceTree = "<group>"; };
+		4996221F260770D600F35AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49962224260770D600F35AFA /* Power Of 8 BallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Power Of 8 BallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49962228260770D600F35AFA /* Power_Of_8_BallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power_Of_8_BallUITests.swift; sourceTree = "<group>"; };
+		4996222A260770D600F35AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49962200260770CD00F35AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49962216260770D500F35AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49962221260770D600F35AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		499621FA260770CD00F35AFA = {
+			isa = PBXGroup;
+			children = (
+				49962205260770CD00F35AFA /* Power Of 8 Ball */,
+				4996221C260770D600F35AFA /* Power Of 8 BallTests */,
+				49962227260770D600F35AFA /* Power Of 8 BallUITests */,
+				49962204260770CD00F35AFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49962204260770CD00F35AFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49962203260770CD00F35AFA /* Power Of 8 Ball.app */,
+				49962219260770D600F35AFA /* Power Of 8 BallTests.xctest */,
+				49962224260770D600F35AFA /* Power Of 8 BallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49962205260770CD00F35AFA /* Power Of 8 Ball */ = {
+			isa = PBXGroup;
+			children = (
+				49962206260770CD00F35AFA /* AppDelegate.swift */,
+				49962208260770CD00F35AFA /* SceneDelegate.swift */,
+				4996220A260770CD00F35AFA /* ViewController.swift */,
+				4996220C260770CD00F35AFA /* Main.storyboard */,
+				4996220F260770D500F35AFA /* Assets.xcassets */,
+				49962211260770D500F35AFA /* LaunchScreen.storyboard */,
+				49962214260770D500F35AFA /* Info.plist */,
+			);
+			path = "Power Of 8 Ball";
+			sourceTree = "<group>";
+		};
+		4996221C260770D600F35AFA /* Power Of 8 BallTests */ = {
+			isa = PBXGroup;
+			children = (
+				4996221D260770D600F35AFA /* Power_Of_8_BallTests.swift */,
+				4996221F260770D600F35AFA /* Info.plist */,
+			);
+			path = "Power Of 8 BallTests";
+			sourceTree = "<group>";
+		};
+		49962227260770D600F35AFA /* Power Of 8 BallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49962228260770D600F35AFA /* Power_Of_8_BallUITests.swift */,
+				4996222A260770D600F35AFA /* Info.plist */,
+			);
+			path = "Power Of 8 BallUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49962202260770CD00F35AFA /* Power Of 8 Ball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4996222D260770D600F35AFA /* Build configuration list for PBXNativeTarget "Power Of 8 Ball" */;
+			buildPhases = (
+				499621FF260770CD00F35AFA /* Sources */,
+				49962200260770CD00F35AFA /* Frameworks */,
+				49962201260770CD00F35AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Power Of 8 Ball";
+			productName = "Power Of 8 Ball";
+			productReference = 49962203260770CD00F35AFA /* Power Of 8 Ball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49962218260770D500F35AFA /* Power Of 8 BallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49962230260770D600F35AFA /* Build configuration list for PBXNativeTarget "Power Of 8 BallTests" */;
+			buildPhases = (
+				49962215260770D500F35AFA /* Sources */,
+				49962216260770D500F35AFA /* Frameworks */,
+				49962217260770D500F35AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4996221B260770D600F35AFA /* PBXTargetDependency */,
+			);
+			name = "Power Of 8 BallTests";
+			productName = "Power Of 8 BallTests";
+			productReference = 49962219260770D600F35AFA /* Power Of 8 BallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49962223260770D600F35AFA /* Power Of 8 BallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49962233260770D600F35AFA /* Build configuration list for PBXNativeTarget "Power Of 8 BallUITests" */;
+			buildPhases = (
+				49962220260770D600F35AFA /* Sources */,
+				49962221260770D600F35AFA /* Frameworks */,
+				49962222260770D600F35AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49962226260770D600F35AFA /* PBXTargetDependency */,
+			);
+			name = "Power Of 8 BallUITests";
+			productName = "Power Of 8 BallUITests";
+			productReference = 49962224260770D600F35AFA /* Power Of 8 BallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		499621FB260770CD00F35AFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					49962202260770CD00F35AFA = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					49962218260770D500F35AFA = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 49962202260770CD00F35AFA;
+					};
+					49962223260770D600F35AFA = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 49962202260770CD00F35AFA;
+					};
+				};
+			};
+			buildConfigurationList = 499621FE260770CD00F35AFA /* Build configuration list for PBXProject "Power Of 8 Ball" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 499621FA260770CD00F35AFA;
+			productRefGroup = 49962204260770CD00F35AFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49962202260770CD00F35AFA /* Power Of 8 Ball */,
+				49962218260770D500F35AFA /* Power Of 8 BallTests */,
+				49962223260770D600F35AFA /* Power Of 8 BallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49962201260770CD00F35AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49962213260770D500F35AFA /* LaunchScreen.storyboard in Resources */,
+				49962210260770D500F35AFA /* Assets.xcassets in Resources */,
+				4996220E260770CD00F35AFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49962217260770D500F35AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49962222260770D600F35AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		499621FF260770CD00F35AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4996220B260770CD00F35AFA /* ViewController.swift in Sources */,
+				49962207260770CD00F35AFA /* AppDelegate.swift in Sources */,
+				49962209260770CD00F35AFA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49962215260770D500F35AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4996221E260770D600F35AFA /* Power_Of_8_BallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49962220260770D600F35AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49962229260770D600F35AFA /* Power_Of_8_BallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4996221B260770D600F35AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49962202260770CD00F35AFA /* Power Of 8 Ball */;
+			targetProxy = 4996221A260770D600F35AFA /* PBXContainerItemProxy */;
+		};
+		49962226260770D600F35AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49962202260770CD00F35AFA /* Power Of 8 Ball */;
+			targetProxy = 49962225260770D600F35AFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4996220C260770CD00F35AFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4996220D260770CD00F35AFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49962211260770D500F35AFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49962212260770D500F35AFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4996222B260770D600F35AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4996222C260770D600F35AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4996222E260770D600F35AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Power Of 8 Ball/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atinagnihotri.Power-Of-8-Ball";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4996222F260770D600F35AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Power Of 8 Ball/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atinagnihotri.Power-Of-8-Ball";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49962231260770D600F35AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Power Of 8 BallTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atinagnihotri.Power-Of-8-BallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Power Of 8 Ball.app/Power Of 8 Ball";
+			};
+			name = Debug;
+		};
+		49962232260770D600F35AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Power Of 8 BallTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atinagnihotri.Power-Of-8-BallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Power Of 8 Ball.app/Power Of 8 Ball";
+			};
+			name = Release;
+		};
+		49962234260770D600F35AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Power Of 8 BallUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atinagnihotri.Power-Of-8-BallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Power Of 8 Ball";
+			};
+			name = Debug;
+		};
+		49962235260770D600F35AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Power Of 8 BallUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atinagnihotri.Power-Of-8-BallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Power Of 8 Ball";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		499621FE260770CD00F35AFA /* Build configuration list for PBXProject "Power Of 8 Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4996222B260770D600F35AFA /* Debug */,
+				4996222C260770D600F35AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4996222D260770D600F35AFA /* Build configuration list for PBXNativeTarget "Power Of 8 Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4996222E260770D600F35AFA /* Debug */,
+				4996222F260770D600F35AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49962230260770D600F35AFA /* Build configuration list for PBXNativeTarget "Power Of 8 BallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49962231260770D600F35AFA /* Debug */,
+				49962232260770D600F35AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49962233260770D600F35AFA /* Build configuration list for PBXNativeTarget "Power Of 8 BallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49962234260770D600F35AFA /* Debug */,
+				49962235260770D600F35AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 499621FB260770CD00F35AFA /* Project object */;
+}
